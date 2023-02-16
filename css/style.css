@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica;
+    /* padding: 50px; */
+    background-color: #DCAE96;
+  }
+
+main{
+  padding: 20px;
+}
+
+.hero-image{
+  background-image: url('../images/women_march_pano.jpg');
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  background-color: white;
+  height: 50pt;
+  padding-top: 6px;
+}
+
+nav ul li{
+    display: inline;
+    font-family: 'Bradley Hand', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    border-radius: 15%;
+    font-size: 20pt;
+    text-align: center;
+    margin: 20px;
+}
+
+nav a{
+  /* Set text decoration*/
+  text-decoration: none;
+}
+
+a:visited{
+  /* Set color */
+  color: black;
+}
+
+h1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30pt;
+    padding: 50px;
+  }
+
+h2{
+    font-size: 20pt;
+    margin-top: 30px;
+  }
+
+p{
+    /* make your paragraphs 14pt, double-spaced and 10px of padding on the left and right */
+    font-size: 12pt;
+    line-height: 1.5
+    }
+
+ul{
+    padding: 10px;
+    text-align: center;
+}
+
+li{
+  display: inline-block;
+  margin: 5px;
+}
+
+nav .active{
+  color: black;
+  background: #DCAE96;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+img{
+  width: 30%;
+  padding: 10px;
+  margin: 10px 10px 10px 15px;
+  border: dotted #ce9275 10px;
+  border-radius: 100%;
+}
+
+img:nth-child(3n) {
+  border: dashed #ce9275 10px;
+}
+
+dt{
+  font-size: 20pt;
+  padding-top: 20px;
+}
+
+dd{
+  font-weight: bold;
+}
+
+footer{
+  font-style: oblique;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+
+
